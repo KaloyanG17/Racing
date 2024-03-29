@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/index.0b445687.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulated Racing</title>
+    <style>body {
+  color: #333;
+  text-align: center;
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+h1 {
+  color: #fff;
+  background-color: #333;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 48px;
+  display: inline-block;
+}
+
+.menu {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+}
+
+.menu a {
+  color: #fff;
+  background-color: #333;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: background-color .3s, color .3s;
+}
+
+.menu a:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+#vehicle-container {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.description {
+  box-sizing: border-box;
+  color: #000;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+</style>
+</head>
+<body>
+    <h1>Welcome to Simulated Racing</h1>
+
+    <div class="switch">
+        <div id="buttons-container" style="background-color: #d3d3d3; border-radius: 10px; padding: 2px; position: absolute; top: 10px; right: 10px">
+            <a href="/indexLow.html"><button id="2d-btn" style="border-radius: 10px">2D</button></a>
+            <a href="/index.html"><button id="3d-btn" style="border-radius: 10px">3D</button></a>
+        </div>
+
+    <div class="menu">
+        <a href="/race.html">Race</a>
+        <a href="/qualifying.html">Qualifying</a>
+    </div>
+
+    <div id="vehicle-container">
+        <canvas id="bg"></canvas>   
+    </div>
+
+    <div class="description">
+        <p>Simulated Racing is a website which aims to showcase the best Artificial Inteligence Stratagy possible in each instance of the race with AI controlled cars.</p>
+        <p>The cars will also be simulated to have a realistic behavious.</p>
+    </div>
+    <script src="/index.c1953f4a.js" defer=""></script>
+</div></body>
+</html>
