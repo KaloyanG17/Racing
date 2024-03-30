@@ -8,7 +8,7 @@ import data from './trained_network.json';
 
 // Global variables
 const TRACK = track2;
-const MODEL = 'track2.glb';
+const MODEL = 'track1.glb';
 const CAR = 'car.glb';
 
 // Setup scene
